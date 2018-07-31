@@ -66,9 +66,12 @@
         .mainFooter{
             height: 92px; width: 80%;background: #FFC312; margin:auto;
         }
-        .iconLienHe{
-            height: 30px; width: 30px; margin:auto;
-        }
+            #topMainFooter{height: 33px; width: 100%; background: #dff9fb}
+                #topMainFooter a img{
+                    height: 20px; width: 20px;
+    box-pack:center;
+    box-align:center;
+                }
         .bottomFooter{
             height: 49px; width: 100%;background: #ecf0f1;
         }
