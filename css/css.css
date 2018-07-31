@@ -56,7 +56,26 @@
     #dichVu{background:#2f3640;width:100%;height:856px}
 
 /*contactInto*/
-    #contactInto{background:#ff7979;width:100%;height:609px}
+    #contactInfo{background:#FAFAFA;width:100%;height:443px;padding-top: 50px}
+    #contactInfoLeft{height:100%;width:20%;float:left}
+    #contactInfoMain{height:100%;width:60%;float:left}
+        .thongTinCongTy{
+            height: 100%; width: 45%;float:left;padding-right: 30px; 
+        }
+        .contactInfo{
+            height: 100%; width: 55%;float:left;
+        }
+       /* form{
+            transition:all 4s ease-in-out;
+        }*/
+        /*.form-control{  
+            background: #FAFAFA;
+            border: none;
+            box-shadow: none;
+            outline: none;
+            border-bottom: 1px solid gray;
+        }*/
+    #contactInfoRight{height:100%;width:20%;float:left}
 
 /*footer*/
     #footer{background:#6ab04c;width:100%;height:160px}
