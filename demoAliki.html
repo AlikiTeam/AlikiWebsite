@@ -12,6 +12,9 @@
   <script src="bootstrap/js/bootstrap.min.js"></script>
   <script src="jquery/jquery.js"></script>
   <script src="js/js.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
 
 
 </head>
@@ -76,7 +79,26 @@
       <div class="mainSlogan"></div>
     </div>
 
-    <div id="doiTac">doiTac</div>
+    <div id="doiTac">
+      <div class="row">
+        <div class="container">
+          <section class="customer-logos slider">
+            <div class="slide"><img src="image/logoBEU.png"></div>
+            <div class="slide"><img src="image/logoNamThai.png"></div>
+            <div class="slide"><img src="image/logoPVI.png"></div>
+            <div class="slide"><img src="image/logoVinGroup.png"></div>
+            <div class="slide"><img src="image/logoMicrosoft.png"></div>
+            <div class="slide"><img src="image/logoLotte.png"></div>
+            <div class="slide"><img src="image/logoBEU.png"></div>
+            <div class="slide"><img src="image/logoNamThai.png"></div>
+            <div class="slide"><img src="image/logoPVI.png"></div>
+            <div class="slide"><img src="image/logoVinGroup.png"></div>
+            <div class="slide"><img src="image/logoMicrosoft.png"></div>
+            <div class="slide"><img src="image/logoLotte.png"></div>
+          </section>
+        </div>
+      </div>
+    </div>
 
     <div id="dichVu">dichVu</div>
 
@@ -106,20 +128,56 @@
     <div id="footer">
       <div class="topFooter"></div>
       <div class="mainFooter">
-        <div id="topMainFooter">
-          <a href="#" ><img src="image/iconFacebook.png"></a>
-          <a href="#" ><img src="image/iconInstagram.png"></a>
-          <a href="#" ><img src="image/iconTwitter.png"></a>
-        </div>
+        <center>
+          <div id="topMainFooter">
+            <a href="#" ><img src="image/iconFacebook.png"></a>
+            <a href="#" ><img src="image/iconInstagram.png"></a>
+            <a href="#" ><img src="image/iconTwitter.png"></a>
+          </div>
+        </center>
         <div id="bottomMainFooter">
-          
+          <center><p><strong>ALIKI SOFTWARE 2018. ALL RIGHTS RESERVED.</strong></p></center>
         </div>
       </div>
       <div class="bottomFooter"></div>
     </div>
   </div>
+  
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 228c4ebd5edf3517f2eb57a6ca232c4cac9155d5
+
+
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.customer-logos').slick({
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1000,
+        arrows: false,
+        dots: false,
+        pauseOnHover: false,
+        responsive: [{
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 4
+          }
+        }, {
+          breakpoint: 520,
+          settings: {
+            slidesToShow: 3
+          }
+        }]
+      });
+    });
+  </script>
+
+</body>
+
