@@ -56,11 +56,16 @@ ul.listControl li a{
   padding: 2px 20px;
   text-decoration: none;
   transition: .5s;
-  color: #FAFAFA;
+}
+ul.listControl li a.changeColor{
+  color: #000;
 }
 ul.listControl li a:hover{
   color: #fff;
   background: #f00;
+}
+.amenu{
+  color: #fff;
 }
 
 /*video backgruond*/
@@ -132,3 +137,4 @@ ul.listControl li a:hover{
   .header-content h1{font-size: 40px;}
   .header-content p{font-size: 1rem;}
 }
+.listControl a.c {}
