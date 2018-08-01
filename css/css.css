@@ -1,67 +1,55 @@
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Montserrat:400i&subset=vietnamese');
 #main{height:auto;width:100%;background:#00C;margin-left:auto;margin-right:auto}
-<<<<<<< HEAD
-=======
-    p{
-        font-family: 'Montserrat', sans-serif;
-        line-height: 2;
-    }
-    h1{
-        font-family: 'Montserrat', sans-serif;
-    }
->>>>>>> 13b862eb0da49ee4978b6b974a2db0d37577da78
-h1{
-    font-family: 'Montserrat', sans-serif;
-}
 p{
     font-family: 'Montserrat', sans-serif;
     line-height: 2;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 13b862eb0da49ee4978b6b974a2db0d37577da78
+h1{
+    font-family: 'Montserrat', sans-serif;
+}
 
 /*header*/
 
 /*about*/
-    #about{background:#F0F;width:100%;height:400px}
-    #aboutLeft{background:#FAFAFA;height:100%;width:20%;float:left}
-    #aboutMain{background:#FAFAFA;height:100%;width:60%;float:left}
-    #dichVuPage{height: 100%; width: 33.33%; float: left; padding: 0px 25px}
-        .trang1{
-            height: 80px; width: 100%;
-        }
-        .tenAbout1{
-            height: 42px; width: 80%; margin: auto;text-align: center; font-size: 50px;font-family: 'Abril Fatface', cursive;
-        }
-        .trang2{
-            height: 20px; width: 100%;
-        }
-        .gioiThieu1{
-            height: 102px; width: 70%; margin: auto;text-align: center;font-size: 16px;line-height: 2.5;padding-top: 10px;
-        }
-    #aboutRight{background:#FAFAFA;height:100%;width:20%;float:left}
-    #aboutNav{background: #212121; width: 100%; height: 250px; float: left;}
-        .nav{
-            width: 60%; padding:20px;
-        }
+#about{background:#FAFAFA;width:100%;height:400px}
+#aboutLeft{height:100%;width:20%;float:left}
+#aboutMain{height:100%;width:60%;float:left}
+#dichVuPage{height: 100%; width: 33.33%; float: left; padding: 0px 25px}
+.trang1{
+    height: 80px; width: 100%;
+}
+.tenAbout1{
+    height: 42px; width: 80%; margin: auto;text-align: center; font-size: 50px;font-family: 'Abril Fatface', cursive;
+}
+.trang2{
+    height: 20px; width: 100%;
+}
+.gioiThieu1{
+    height: 102px; width: 70%; margin: auto;text-align: center;font-size: 16px;line-height: 2.5;padding-top: 10px;
+}
+#aboutRight{height:100%;width:20%;float:left}
+#aboutNav{background: #212121; width: 100%; height: 250px; float: left;}
+#aboutNavLeft{height:100%;width:20%;float:left}
+#aboutNavRight{height:100%;width:20%;float:left}
+#nav{
+    width: 60%;height: 100%; float: left;padding-top: 60px;color: #fff
+}
 
 /*aboutProject*/
-    #aboutProject{background:#ff6b6b;width:100%;height:500px}
-    #aboutProjectLeft{background:#c8d6e5;height:100%;width:20%;float:left}
-    #aboutProjectMain{background:#5f27cd;height:100%;width:60%;float:left}
-        .trang4{
-            height: 80px; width: 100%;background: #dff9fb;
-        }
-        .tenAbout2{
-            height: 42px; width: 50%; margin: auto;text-align: center;
-        }
-        .trang5{
-            height: 20px; width: 100%;background: #dff9fb;
-        }
-    #aboutProjectRight{background:#f368e0;height:100%;width:20%;float:left}
-#about{background:#F0F;width:100%;height:400px}
+#aboutProject{background:#fff;width:100%;height:500px}
+#aboutProjectLeft{height:100%;width:20%;float:left}
+#aboutProjectMain{height:100%;width:60%;float:left}
+.trang4{
+    height: 80px; width: 100%;background: #dff9fb;
+}
+.tenAbout2{
+    height: 42px; width: 50%; margin: auto;text-align: center;
+}
+.trang5{
+    height: 20px; width: 100%;background: #dff9fb;
+}
+#aboutProjectRight{height:100%;width:20%;float:left}
+#about{background:#FAFAFA;width:100%;height:400px}
 #aboutLeft{background:#FAFAFA;height:100%;width:20%;float:left}
 #aboutMain{background:#FAFAFA;height:100%;width:60%;float:left}
 .trang1{
@@ -77,13 +65,9 @@ p{
     height: 102px; width: 70%; margin: auto;text-align: center;font-size: 16px;line-height: 2.5;padding-top: 10px;
 }
 #aboutRight{background:#FAFAFA;height:100%;width:20%;float:left}
-#aboutNav{background: #212121; width: 100%; height: 250px; float: left;}
-.nav{
-    width: 60%; padding:20px;
-}
 
 /*aboutProject*/
-#aboutProject{background:#ebebeb;width:100%;height:443px}
+#aboutProject{background:#ebebeb;width:100%;height:500px}
 #aboutProjectLeft{background:#ebebeb;height:100%;width:20%;float:left}
 #aboutProjectMain{background:#ebebeb;height:100%;width:60%;float:left}
 .trang4{
@@ -126,23 +110,19 @@ p{
 #aboutProjectRight{background:#ebebeb;height:100%;width:20%;float:left}
 
 /*slogan*/
-#slogan{background:#e84118;width:100%;height:443px}
-.trang6{
-    height: 60px; width: 100%;background: #ebebeb;
-}
+#slogan{background:#212121;width:100%;height:350px}
 .mainSlogan{
-    height: 230px; width: 100%;background: #ebebeb;
+    height: 100%; width: 60%;color: #fff
+}
+#pSlogan{
+    font-size: 20px;
 }
 
 /*doiTac*/
-#doiTac{background:#ebebeb;width:100%;height:200px}
+#doiTac{background:#ebebeb;width:100%;height:250px}
 
 /*dichVu*/
-    #dichVu{background:#FAFAFA;width:100%;height:500px}
-<<<<<<< HEAD
-=======
-#dichVu{background:#2f3640;width:100%;height:856px}
->>>>>>> 13b862eb0da49ee4978b6b974a2db0d37577da78
+#dichVu{background:#FAFAFA;width:100%;height:500px}
 .mainDichVu{
     width: 60%;height: 100%; background: #fff;
 }
@@ -161,43 +141,34 @@ p{
     border:none;
     box-shadow: none;
 }
-       /* form{
-            transition:all 4s ease-in-out;
-            }*/
-        /*.form-control{  
-            background: #FAFAFA;
-            border: none;
-            box-shadow: none;
-            outline: none;
-            border-bottom: 1px solid gray;
-            }*/
-            #contactInfoRight{height:100%;width:20%;float:left}
 
-            /*footer*/
-            #footer{background:#ebebeb;width:100%;height:140px}
-            .topFooter{
-                height: 30px; width: 100%;background: #ebebeb;
-            }
-            .mainFooter{
-                height: 45px; width: 80%;background: #ebebeb; margin:auto;
-            }
-            #topMainFooter{height: 45px; width: 100%; background: #ebebeb}
-            #topMainFooter a img{
-                height: 25px; width: 25px;
-            }
-            #bottomMainFooter p{
-                padding: auto; 
-            }
-            .bottomFooter{
-                height: 30px; width: 100%;background: #ebebeb;
-            }
+#contactInfoRight{height:100%;width:20%;float:left}
+
+/*footer*/
+#footer{background:#ebebeb;width:100%;height:140px}
+.topFooter{
+    height: 30px; width: 100%;background: #ebebeb;
+}
+.mainFooter{
+    height: 45px; width: 80%;background: #ebebeb; margin:auto;
+}
+#topMainFooter{height: 45px; width: 100%; background: #ebebeb}
+#topMainFooter a img{
+    height: 25px; width: 25px;
+}
+#bottomMainFooter p{
+    padding: auto; 
+}
+.bottomFooter{
+    height: 30px; width: 100%;background: #ebebeb;
+}
 
 
 
 ul.listRight{
     margin: 0px, 15px;
     padding: 0px, 15px;
-  display: flex
+    display: flex
 }
 .doiTacIcon{
     width: 64px
@@ -205,138 +176,138 @@ ul.listRight{
 
 
 
-            /* Slider */
-            .slick-slide {
-                margin: 0px 20px;
-            }
+/* Slider */
+.slick-slide {
+    margin: 0px 20px;
+}
 
-            .slick-slide img {
-                width: 100%;
-            }
+.slick-slide img {
+    width: 100%;
+}
 
-            .slick-slider
-            {
-                position: relative;
-                display: block;
-                box-sizing: border-box;
-                -webkit-user-select: none;
-                -moz-user-select: none;
-                -ms-user-select: none;
-                user-select: none;
-                -webkit-touch-callout: none;
-                -khtml-user-select: none;
-                -ms-touch-action: pan-y;
-                touch-action: pan-y;
-                -webkit-tap-highlight-color: transparent;
-            }
+.slick-slider
+{
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
 
-            .slick-list
-            {
-                position: relative;
-                display: block;
-                overflow: hidden;
-                margin: 0;
-                padding: 0;
-            }
-            .slick-list:focus
-            {
-                outline: none;
-            }
-            .slick-list.dragging
-            {
-                cursor: pointer;
-                cursor: hand;
-            }
+.slick-list
+{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
 
-            .slick-slider .slick-track,
-            .slick-slider .slick-list
-            {
-                -webkit-transform: translate3d(0, 0, 0);
-                -moz-transform: translate3d(0, 0, 0);
-                -ms-transform: translate3d(0, 0, 0);
-                -o-transform: translate3d(0, 0, 0);
-                transform: translate3d(0, 0, 0);
-            }
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
 
-            .slick-track
-            {
-                position: relative;
-                top: 0;
-                left: 0;
-                display: block;
-            }
-            .slick-track:before,
-            .slick-track:after
-            {
-                display: table;
-                content: '';
-            }
-            .slick-track:after
-            {
-                clear: both;
-            }
-            .slick-loading .slick-track
-            {
-                visibility: hidden;
-            }
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
 
-            .slick-slide
-            {
-                display: none;
-                float: left;
-                height: 100%;
-                min-height: 1px;
-            }
-            [dir='rtl'] .slick-slide
-            {
-                float: right;
-            }
-            .slick-slide img
-            {
-                display: block;
-            }
-            .slick-slide.slick-loading img
-            {
-                display: none;
-            }
-            .slick-slide.dragging img
-            {
-                pointer-events: none;
-            }
-            .slick-initialized .slick-slide
-            {
-                display: block;
-            }
-            .slick-loading .slick-slide
-            {
-                visibility: hidden;
-            }
-            .slick-vertical .slick-slide
-            {
-                display: block;
-                height: auto;
-                border: 1px solid transparent;
-            }
-            .slick-arrow.slick-hidden {
-                display: none;
-            }
-
-
+.slick-slide
+{
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}
 
 
-            html, body {
-                margin: 0;
-                padding: 0;
-            }
-            * {
-                box-sizing: border-box;
-            }
-            
-            .row {
-                background-color: #fafafa;
-                background-color: rgba(233,230,230,0.79);
-                padding: 2% 0;
-            }
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    background-color: #fafafa;
+    background-color: rgba(233,230,230,0.79);
+    padding: 2% 0;
+}
 
 
 
