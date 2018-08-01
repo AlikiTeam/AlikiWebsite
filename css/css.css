@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Montserrat:400i&subset=vietnamese');
 #main{height:auto;width:100%;background:#00C;margin-left:auto;margin-right:auto}
+<<<<<<< HEAD
+=======
     p{
         font-family: 'Montserrat', sans-serif;
         line-height: 2;
@@ -7,6 +9,7 @@
     h1{
         font-family: 'Montserrat', sans-serif;
     }
+>>>>>>> 13b862eb0da49ee4978b6b974a2db0d37577da78
 h1{
     font-family: 'Montserrat', sans-serif;
 }
@@ -14,6 +17,10 @@ p{
     font-family: 'Montserrat', sans-serif;
     line-height: 2;
 }
+<<<<<<< HEAD
+
+=======
+>>>>>>> 13b862eb0da49ee4978b6b974a2db0d37577da78
 
 /*header*/
 
@@ -132,7 +139,10 @@ p{
 
 /*dichVu*/
     #dichVu{background:#FAFAFA;width:100%;height:500px}
+<<<<<<< HEAD
+=======
 #dichVu{background:#2f3640;width:100%;height:856px}
+>>>>>>> 13b862eb0da49ee4978b6b974a2db0d37577da78
 .mainDichVu{
     width: 60%;height: 100%; background: #fff;
 }
