@@ -9,14 +9,6 @@
   <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css" >
   <link rel="stylesheet" href="css/myWeb.css" >
   <link rel="stylesheet" type="text/css" href="css/css.css" >
-  <script src="bootstrap/js/bootstrap.min.js"></script>
-  <script src="jquery/jquery.js"></script>
-  <script src="js/js.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
-
-
 </head>
 <body>
 
@@ -44,7 +36,7 @@
       </div>
       <div class="header-overlay">
         <div class="header-content">
-          <h1>GOOD MORNING</h1>
+          <h1>Good Morning</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit hic eaque rerum cupiditate officiis recusandae iusto quaerat architecto odio illum.</p>
           <a class="btn btn-success my-btn mt-4">KNOW MORE &gt;</a>
         </div>
@@ -79,13 +71,31 @@
       <div class="mainSlogan"></div>
     </div>
     <div id="dichVu">
+      <div id="aboutLeft"></div>
       <center>
-        <div class="mainDichVu">
-          <h1>Dịch Vụ</h1>
-          <p>Công ty chúng tôi đang thực hiện phát triển kinh doanh ba lĩnh vực sau đây.</p>
+        <div id="aboutMain">
+          <h1>DỊCH VỤ</h1>
+          <p>Công ty chúng tôi đang thực hiện phát triển kinh doanh ba lĩnh vực sau đây. </p>
+          <div id="dichVuPage">
+            <img class = "doiTacIcon" src="image/ODC-icon.png"><br>
+              <h3>ODC</h3>
+              <p>Chúng tôi cung cấp dịch vụ ODC một cách linh hoạt phù hợp theo yêu cầu của khách hàng. Quý khách có thể lựa chọn theo chuyên môn hóa, theo dự án, nhân sự tại chỗ hay nhân sự từ xa. Mục tiêu của chúng tôi đó là giúp quý khách tập trung toàn bộ vào công việc kinh doanh thay vì dành thời gian để quản lý dự án, bởi nhân sự của chúng tôi đủ kinh nghiệm và uy tín để thực hiện chúng.</p>
+          </div>
+          <div id="dichVuPage">
+            <img class = "doiTacIcon" src="image/mobile-icon.png"><br>
+              <h3>Smartphone Applications</h3>
+              <p>Thị trường cạnh tranh sôi động cùng với sự ra đời của hàng loạt các ứng dụng smartphone, chúng tôi biết quý khách cần một đối tác uy tín về chất lượng, làm việc sáng tạo và linh hoạt để giúp quý khách tạo nên sự khác biệt. Aliki đồng hành cùng quý khách từ tư vấn đến phát triển sản phẩm ứng dụng dành cho Smartphone </p>
+          </div>
+          <div id="dichVuPage">
+            <img class = "doiTacIcon" src="image/outsource-icon.png"><br>
+              <h3>Offshore</h3>
+              <p>Với nhiều năm kinh nghiệm phát triển phần mềm outsourcing và đặc biệt là tới 90% là khách hàng Nhật Bản, chúng tôi thấu hiểu giá trị của một doanh nghiệp outsourcing đó là: Đem đến sự hài lòng tuyệt đối cho khách hàng.</p>
+          </div>
         </div>
       </center>
-    </div>
+      <div id="aboutRight"></div>
+      
+    </div>  
     <div id="doiTac">
       <div class="row">
         <div class="container">
@@ -143,16 +153,20 @@
           <center><p><strong>ALIKI SOFTWARE 2018. ALL RIGHTS RESERVED.</strong></p></center>
         </div>
       </div>
-      <div class="bottomFooter"></div>
     </div>
   </div>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+  <script src="jquery/jquery.js"></script>
+  <script src="js/js.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <script type="text/javascript">
     $(document).ready(function(){
       $('.customer-logos').slick({
         slidesToShow: 6,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 1000,
+        autoplaySpeed: 2000,
         arrows: false,
         dots: false,
         pauseOnHover: false,

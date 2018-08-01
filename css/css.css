@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Montserrat:400i&subset=vietnamese');
-#main{height:5000px;width:100%;background:#00C;margin-left:auto;margin-right:auto}
-    h1{
-        font-family: 'Montserrat', sans-serif;
-    }
+#main{height:auto;width:100%;background:#00C;margin-left:auto;margin-right:auto}
     p{
         font-family: 'Montserrat', sans-serif;
         line-height: 2;
+    }
+    h1{
+        font-family: 'Montserrat', sans-serif;
     }
 
 /*header*/
@@ -14,6 +14,7 @@
     #about{background:#F0F;width:100%;height:400px}
     #aboutLeft{background:#FAFAFA;height:100%;width:20%;float:left}
     #aboutMain{background:#FAFAFA;height:100%;width:60%;float:left}
+    #dichVuPage{height: 100%; width: 33.33%; float: left; padding: 0px 25px}
         .trang1{
             height: 80px; width: 100%;
         }
@@ -33,7 +34,7 @@
         }
 
 /*aboutProject*/
-    #aboutProject{background:#ff6b6b;width:100%;height:443px}
+    #aboutProject{background:#ff6b6b;width:100%;height:500px}
     #aboutProjectLeft{background:#c8d6e5;height:100%;width:20%;float:left}
     #aboutProjectMain{background:#5f27cd;height:100%;width:60%;float:left}
         .trang4{
@@ -60,10 +61,7 @@
     #doiTac{background:#fbc531;width:100%;height:153px}
 
 /*dichVu*/
-    #dichVu{background:#2f3640;width:100%;height:856px}
-        .mainDichVu{
-            width: 60%;height: 100%; background: #fff;
-        }
+    #dichVu{background:#FAFAFA;width:100%;height:500px}
 
 /*contactInto*/
     #contactInfo{background:#FAFAFA;width:100%;height:443px}
@@ -112,7 +110,14 @@
 
 
 
-
+ul.listRight{
+    margin: 0px, 15px;
+    padding: 0px, 15px;
+  display: flex
+}
+.doiTacIcon{
+    width: 64px
+}
 
 
 
