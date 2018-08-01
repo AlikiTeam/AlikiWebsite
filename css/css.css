@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Montserrat:400i&subset=vietnamese');
 #main{height:auto;width:100%;background:#00C;margin-left:auto;margin-right:auto}
-<<<<<<< HEAD
     p{
         font-family: 'Montserrat', sans-serif;
         line-height: 2;
@@ -8,7 +7,6 @@
     h1{
         font-family: 'Montserrat', sans-serif;
     }
-=======
 h1{
     font-family: 'Montserrat', sans-serif;
 }
@@ -16,12 +14,10 @@ p{
     font-family: 'Montserrat', sans-serif;
     line-height: 2;
 }
->>>>>>> 4f18881dddf92d33498498acdcf3d5a5d2d70d0f
 
 /*header*/
 
 /*about*/
-<<<<<<< HEAD
     #about{background:#F0F;width:100%;height:400px}
     #aboutLeft{background:#FAFAFA;height:100%;width:20%;float:left}
     #aboutMain{background:#FAFAFA;height:100%;width:60%;float:left}
@@ -58,7 +54,6 @@ p{
             height: 20px; width: 100%;background: #dff9fb;
         }
     #aboutProjectRight{background:#f368e0;height:100%;width:20%;float:left}
-=======
 #about{background:#F0F;width:100%;height:400px}
 #aboutLeft{background:#FAFAFA;height:100%;width:20%;float:left}
 #aboutMain{background:#FAFAFA;height:100%;width:60%;float:left}
@@ -122,7 +117,6 @@ p{
 }
 .mainTechnology{ height: 301px; width: 100%; background: #212121 }
 #aboutProjectRight{background:#ebebeb;height:100%;width:20%;float:left}
->>>>>>> 4f18881dddf92d33498498acdcf3d5a5d2d70d0f
 
 /*slogan*/
 #slogan{background:#e84118;width:100%;height:443px}
@@ -137,14 +131,11 @@ p{
 #doiTac{background:#ebebeb;width:100%;height:200px}
 
 /*dichVu*/
-<<<<<<< HEAD
     #dichVu{background:#FAFAFA;width:100%;height:500px}
-=======
 #dichVu{background:#2f3640;width:100%;height:856px}
 .mainDichVu{
     width: 60%;height: 100%; background: #fff;
 }
->>>>>>> 4f18881dddf92d33498498acdcf3d5a5d2d70d0f
 
 /*contactInto*/
 #contactInfo{background:#FAFAFA;width:100%;height:443px}
