@@ -24,11 +24,11 @@ nav.thanhHeder {
   z-index: 69;
 }
 nav.white{
-  filter: alpha(opacity=95);
+  filter: alpha(opacity=90);
   /* IE */
-  -moz-opacity: 0.95;
+  -moz-opacity: 0.90;
   /* Mozilla */
-  opacity: 0.95;
+  opacity: 0.90;
   background-color: #FAFAFA;
   height: 100px;
   padding: 10px 50px;
@@ -61,11 +61,16 @@ ul.listControl li a.changeColor{
   color: #000;
 }
 ul.listControl li a:hover{
+  border: 2px;
   color: #fff;
-  background: #f00;
+  background: #28b8e2;
 }
 .amenu{
   color: #fff;
+}
+.count
+{
+  color:white;
 }
 
 /*video backgruond*/

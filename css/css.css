@@ -1,15 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Montserrat:400i&subset=vietnamese');
+@import url('https://fonts.googleapis.com/css?family=Roboto&subset=vietnamese');
 #main{height:auto;width:100%;background:#00C;margin-left:auto;margin-right:auto}
 p{
     font-family: 'Montserrat', sans-serif;
     line-height: 2;
 }
-h1{
-    font-family: 'Montserrat', sans-serif;
-}
-
 /*header*/
-
+.left-2{height:100%;width:20%;float:left}
+.main-6{height:100%;width:60%;float:left}
+.right-2{height:100%;width:20%;float:left}
 /*about*/
 #about{background:#FAFAFA;width:100%;height:400px}
 #aboutLeft{height:100%;width:20%;float:left}
@@ -32,7 +31,7 @@ h1{
 #aboutNavLeft{height:100%;width:20%;float:left}
 #aboutNavRight{height:100%;width:20%;float:left}
 #nav{
-    width: 60%;height: 100%; float: left;padding-top: 60px;color: #fff
+    width: 60%;height: 100%; float: left;padding-top: 60px;color: #fff;font-size: 18px
 }
 
 /*aboutProject*/
@@ -67,9 +66,10 @@ h1{
 #aboutRight{background:#FAFAFA;height:100%;width:20%;float:left}
 
 /*aboutProject*/
-#aboutProject{background:#ebebeb;width:100%;height:500px}
+#aboutProject{background:#ebebeb;width:100%;height:800px}
 #aboutProjectLeft{background:#ebebeb;height:100%;width:20%;float:left}
 #aboutProjectMain{background:#ebebeb;height:100%;width:60%;float:left}
+#congNghe{background:#ebebeb;width:100%;height:800px}
 .trang4{
     height: 80px; width: 100%;background: #ebebeb;
 }
@@ -89,13 +89,19 @@ h1{
     height: 301px; width: 33.3333333333%; background: #ebebeb;float: left;
 }
 .topTechnology{
-    height: 33.3333333333%; width: 100%; background:#ebebeb
+    height: 33.3333333333%; width: 100%
 }
 .centerTechnology{
-    height: 33.3333333333%; width: 100%; background:#ebebeb
+    height: 33.3333333333%; width: 100%
 }
 .bottomTechnology{
-    height: 33.3333333333%; width: 100%; background:#ebebeb
+    height: 33.3333333333%; width: 100%
+}
+.phongTo{
+    transition: .2s;
+}
+.phongTo:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 .topTechnology img{
     width: 80px; height: 100px;display: block; margin-left: auto; margin-right: auto;
@@ -106,11 +112,11 @@ h1{
 .bottomTechnology img{
     width: 80px; height: 100px; display: block; margin-left: auto; margin-right: auto;
 }
-.mainTechnology{ height: 301px; width: 100%; background: #212121 }
+.mainTechnology{ height: 301px; width: 100%; background: #212121; }
 #aboutProjectRight{background:#ebebeb;height:100%;width:20%;float:left}
 
 /*slogan*/
-#slogan{background:#212121;width:100%;height:350px}
+#slogan{background:#212121;width:100%;height:150px;display: inline-block}
 .mainSlogan{
     height: 100%; width: 60%;color: #fff
 }
